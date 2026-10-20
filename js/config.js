@@ -8,15 +8,15 @@ let respecConfig = {
   // specStatus: "wv",                 // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
-  //specStatus: "def",              // Vastgestelde versie
-  specStatus: "basis",            // Basis Document
+  specStatus: "def",              // Vastgestelde versie
+  // specStatus: "basis",            // Basis Document
 
   //-- specType is verplicht!
   //specType: "NO",                 // Norm
   //specType: "ST",                 // Standaard
   //specType: "IM",                 // Informatie Model
-  //specType: "PR",                 // Praktijkrichtlijn
-  specType: "HR",                   // HandReiking
+  specType: "PR",                 // Praktijkrichtlijn
+  // specType: "HR",                   // HandReiking
   //specType: "WA",                 // Werkafspraak
   //specType: "BD",                 // Beheer Documentatie
   //specType: "AL",                 // Algemeen document
@@ -25,7 +25,7 @@ let respecConfig = {
   //-- pubDomain is verplicht! (komt in de URL)
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
   //-- TODO: vul pubDomain in
-  pubDomain: "3dbv",
+  pubDomain: "geobag",
 
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //license: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
@@ -34,21 +34,21 @@ let respecConfig = {
 
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)
   //-- Regel: shortName mag geen hoofdletters bevatten.
-  shortName: "nl-respec-template",
+  shortName: "n-m-berichtenverkeer",
   
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
 	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
 
   //-- publishDate is verplicht. Als je werkversie gekozen hebt  dan pakt Respec
   //-- de pushdate maar de publishDate is nog steeds verplicht.
-  publishDate: "2026-02-09",
+  publishDate: "2018-04-22",
   
   //-- publishVersion is verplicht. Hij mag wel leeg zijn [], maar niet de lege string zijn "".
   publishVersion: [],
  
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beide aan/uit! 
-  //previousPublishDate: "2014-05-01",
-  //previousMaturity: "CV",
+  previousPublishDate: "2018-06-05",
+  previousMaturity: "def",
 
   //-- Deze gebruiken we niet binnen Geonovum
   //prevVersion: "0.0.1",
@@ -58,7 +58,7 @@ let respecConfig = {
   editors:
     [
       {
-        name: "voornaam achternaam",
+        name: "imgeo",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
@@ -66,19 +66,19 @@ let respecConfig = {
 
   //-- de namen van de auteur(s) 
   //-- vul in: per auteur: name:, company:, companyURL: 
-  authors:
-    [
-      {
-        name: "voornaam achternaam",
-        company: "Geonovum",
-        companyURL: "https://www.geonovum.nl",
-      }
-    ],
+  // authors:
+  //   [
+  //     {
+  //       name: "voornaam achternaam",
+  //       company: "Geonovum",
+  //       companyURL: "https://www.geonovum.nl",
+  //     }
+  //   ],
 
   // TODO: Vul de github URL in.
   // neem hier de URL van de github repository op waar het respec document in staat
   // dit zorgt voor het 'Doe mee:' onderdeel in het voorblad van de publicatie.
-  github: "https://github.com/Geonovum/NL-ReSpec-template",
+  github: "https://github.com/Geonovum/geobag-n-m-berichtenverkeer",
 
   // Create PDF and link to file in header (optional):
   // TODO: Change the filename as preferred.
@@ -98,13 +98,13 @@ let respecConfig = {
   //
   localBiblio: 
   {
-    MIM12: {
-      id: "MIM12",
-      title: "MIM - Metamodel Informatie Modellering (Versie 1.2)",
-      href: "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/",
-      status: "Definitief",
-      publisher: "Geonovum",
-      date: "2024-06-13"
-    }
+    // MIM12: {
+    //   id: "MIM12",
+    //   title: "MIM - Metamodel Informatie Modellering (Versie 1.2)",
+    //   href: "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/",
+    //   status: "Definitief",
+    //   publisher: "Geonovum",
+    //   date: "2024-06-13"
+    // }
   }
 };
