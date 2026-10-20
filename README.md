@@ -1,7 +1,7 @@
 > --  
 >
 > ℹ️ 
-> Dit document is overgezet van [geobag-pr-n:m-berichtverkeer](https://github.com/Geonovum/GeoBAG/tree/master/documentatie/praktijkrichtlijnen/n-m%20berichtenverkeer).
+> Dit document is overgezet van [geobag-pr-n:m-berichtenverkeer](https://github.com/Geonovum/GeoBAG/tree/master/documentatie/praktijkrichtlijnen/n-m%20berichtenverkeer).
 > 
 > --
 
